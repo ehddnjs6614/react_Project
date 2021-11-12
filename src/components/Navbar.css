@@ -1,0 +1,17 @@
+.container .header {
+  width: 90%;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .header h1 a {
+  text-decoration: none;
+  color: white;
+  font-family: abster;
+}
+.container .header h1 a:hover {
+  color: #1fdfdf;
+}
