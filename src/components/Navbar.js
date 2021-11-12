@@ -7,7 +7,7 @@ function Navbar() {
     <div>
       <div className="header">
         <h1>
-          <a href="#">DESIGN service</a>
+          <a href="#">DESIGN</a>
         </h1>
         <div className="nav">
           <ul>
@@ -21,10 +21,7 @@ function Navbar() {
               <a href="#">DINING</a>
             </li>
             <li>
-              <a href="#">KITCHEN</a>
-            </li>
-            <li>
-              <a href="#">BACKYARD</a>
+              <a href="#">DINING</a>
             </li>
           </ul>
         </div>

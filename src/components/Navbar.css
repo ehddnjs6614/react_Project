@@ -1,10 +1,24 @@
-.container .header {
+.header {
   width: 90%;
   height: 90px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.container .nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.container .nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container .nav ul li a:hover {
+  color: #1fdfdf;
 }
 
 .container .header h1 a {
@@ -14,4 +28,27 @@
 }
 .container .header h1 a:hover {
   color: #1fdfdf;
+}
+
+@media screen and (max-width: 1100px) {
+  .nav {
+    width: 88%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .nav {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    display: flex;
+    justify-content: center;
+    width: 67%;
+  }
 }
